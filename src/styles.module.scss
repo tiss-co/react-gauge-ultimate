@@ -1,0 +1,37 @@
+$font-family-medium: Helvetica-Neue-Medium;
+$bg-color-light: #2a2a2a;
+$bg-color-dark: #e5e6ec;
+$needle-color-light: #4d535b;
+$needle-color-dark: #d8d8d8;
+
+.PercentText {
+  text-anchor: middle;
+  fill: $bg-color-light;
+  font-family: $font-family-medium;
+  &.Dark {
+    fill: $bg-color-dark;
+  }
+}
+
+.LabelText {
+  text-anchor: middle;
+  fill: $bg-color-light;
+  font-family: $font-family-medium;
+  &.Dark {
+    fill: $bg-color-dark;
+  }
+}
+
+.Needle {
+  fill: $needle-color-light;
+  &.Dark {
+    fill: $needle-color-dark;
+  }
+}
+
+.Circle {
+  fill: $needle-color-light;
+  &.Dark {
+    fill: $needle-color-dark;
+  }
+}
