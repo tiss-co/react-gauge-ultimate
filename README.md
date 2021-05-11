@@ -3,6 +3,7 @@
 > Powerful gauge chart for React
 
 [![NPM](https://img.shields.io/npm/v/react-gauge-ultimate.svg)](https://www.npmjs.com/package/react-gauge-ultimate) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+![react-gauge-ultimate Banner](https://user-images.githubusercontent.com/76048512/117805590-6379b780-b26e-11eb-8b0f-c7aa525fa899.png)
 
 
 ## Install
