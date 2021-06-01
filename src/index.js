@@ -129,8 +129,8 @@ export const Gauge = props => {
       .endAngle(endAngle)
       .sort(null);
     //Add the needle element
-    needle.current = g.current.append('g').attr('class', classNames(css.Needle, {
-      [css.Dark]: darkMode
+    needle.current = g.current.append('g').attr('class', classNames(css.Needle_ReactGaugeUltimate, {
+      [css.Dark_ReactGaugeUltimate]: darkMode
     }));
     //Set up resize event listener to re-render the chart everytime the window is resized
     window.addEventListener('resize', () => {
@@ -392,8 +392,8 @@ const drawNeedle = (
     .attr('cy', centerPoint[1])
     .attr('r', needleRadius)
     // .attr('fill', needleBaseColor)
-    .attr('class', classNames(css.Circle, {
-      [css.Dark]: darkMode
+    .attr('class', classNames(css.Circle_ReactGaugeUltimate, {
+      [css.Dark_ReactGaugeUltimate]: darkMode
     }));
   if (!hideText) {
     addText(percent, props, outerRadius, width, g);
@@ -480,8 +480,8 @@ const addText = (percentage, props, outerRadius, width, g) => {
         }px`
     )
     // .style('fill', props.textColor)
-    .attr('class', classNames(css.PercentText, {
-      [css.Dark]: darkMode
+    .attr('class', classNames(css.PercentText_ReactGaugeUltimate, {
+      [css.Dark_ReactGaugeUltimate]: darkMode
     }));
   g.current
     .append('g')
@@ -504,8 +504,8 @@ const addText = (percentage, props, outerRadius, width, g) => {
         }px`
     )
     // .style('fill', props.textColor)
-    .attr('class', classNames(css.LabelText, {
-      [css.Dark]: darkMode
+    .attr('class', classNames(css.LabelText_ReactGaugeUltimate, {
+      [css.Dark_ReactGaugeUltimate]: darkMode
     }));
 };
 

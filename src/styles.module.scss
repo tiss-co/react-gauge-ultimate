@@ -4,34 +4,34 @@ $bg-color-dark: #e5e6ec;
 $needle-color-light: #4d535b;
 $needle-color-dark: #d8d8d8;
 
-.PercentText {
+.PercentText_ReactGaugeUltimate {
   text-anchor: middle;
   fill: $bg-color-light;
   font-family: $font-family-medium;
-  &.Dark {
+  &.Dark_ReactGaugeUltimate {
     fill: $bg-color-dark;
   }
 }
 
-.LabelText {
+.LabelText_ReactGaugeUltimate {
   text-anchor: middle;
   fill: $bg-color-light;
   font-family: $font-family-medium;
-  &.Dark {
+  &.Dark_ReactGaugeUltimate {
     fill: $bg-color-dark;
   }
 }
 
-.Needle {
+.Needle_ReactGaugeUltimate {
   fill: $needle-color-light;
-  &.Dark {
+  &.Dark_ReactGaugeUltimate {
     fill: $needle-color-dark;
   }
 }
 
-.Circle {
+.Circle_ReactGaugeUltimate {
   fill: $needle-color-light;
-  &.Dark {
+  &.Dark_ReactGaugeUltimate {
     fill: $needle-color-dark;
   }
 }
