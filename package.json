@@ -1,6 +1,6 @@
 {
   "name": "react-gauge-ultimate",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Powerful gauge chart for React",
   "author": "boof-tech",
   "license": "MIT",
@@ -45,15 +45,15 @@
     "prettier": "^2.0.4",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "^3.4.1"
+    "react-scripts": "^3.2.0"
   },
   "files": [
     "dist"
   ],
   "dependencies": {
     "classnames": "^2.3.1",
-    "d3": "^6.7.0",
+    "d3": "^6.2.0",
     "lodash": "^4.17.21",
-    "node-sass": "^6.0.0"
+    "node-sass": "^4.14.1"
   }
 }
