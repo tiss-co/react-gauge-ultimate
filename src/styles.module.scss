@@ -1,0 +1,37 @@
+$font-family-medium: Helvetica-Neue-Medium;
+$bg-color-light: #2a2a2a;
+$bg-color-dark: #e5e6ec;
+$needle-color-light: #4d535b;
+$needle-color-dark: #d8d8d8;
+
+.PercentText_ReactGaugeUltimate {
+  text-anchor: middle;
+  fill: $bg-color-light;
+  font-family: $font-family-medium;
+  &.Dark_ReactGaugeUltimate {
+    fill: $bg-color-dark;
+  }
+}
+
+.LabelText_ReactGaugeUltimate {
+  text-anchor: middle;
+  fill: $bg-color-light;
+  font-family: $font-family-medium;
+  &.Dark_ReactGaugeUltimate {
+    fill: $bg-color-dark;
+  }
+}
+
+.Needle_ReactGaugeUltimate {
+  fill: $needle-color-light;
+  &.Dark_ReactGaugeUltimate {
+    fill: $needle-color-dark;
+  }
+}
+
+.Circle_ReactGaugeUltimate {
+  fill: $needle-color-light;
+  &.Dark_ReactGaugeUltimate {
+    fill: $needle-color-dark;
+  }
+}
