@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # react-gauge-ultimate
 
 > Powerful gauge chart for React
@@ -5,20 +6,32 @@
 [![NPM](https://img.shields.io/npm/v/react-gauge-ultimate.svg)](https://www.npmjs.com/package/react-gauge-ultimate) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 ![react-gauge-ultimate Banner](https://user-images.githubusercontent.com/76048512/117805590-6379b780-b26e-11eb-8b0f-c7aa525fa899.png)
 
+=======
+# test
+
+> Made with create-react-library
+
+[![NPM](https://img.shields.io/npm/v/test.svg)](https://www.npmjs.com/package/test) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+>>>>>>> 4bff4843c937b1f95c6ade461e778766958a23b3
 
 ## Install
 
 ```bash
+<<<<<<< HEAD
 npm i react-gauge-ultimate
 ```
 or
 ```bash
 yarn add react-gauge-ultimate
+=======
+npm install --save test
+>>>>>>> 4bff4843c937b1f95c6ade461e778766958a23b3
 ```
 
 ## Usage
 
 ```jsx
+<<<<<<< HEAD
 import React from 'react'
 
 import { Gauge } from 'react-gauge-ultimate';
@@ -70,3 +83,20 @@ export default App;
 ## License
 
 MIT © [boof-tech](https://github.com/boof-tech)
+=======
+import React, { Component } from 'react'
+
+import MyComponent from 'test'
+import 'test/dist/index.css'
+
+class Example extends Component {
+  render() {
+    return <MyComponent />
+  }
+}
+```
+
+## License
+
+MIT © [test](https://github.com/test)
+>>>>>>> 4bff4843c937b1f95c6ade461e778766958a23b3

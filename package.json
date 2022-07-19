@@ -1,6 +1,10 @@
 {
   "name": "react-gauge-ultimate",
+<<<<<<< HEAD
   "version": "1.0.2",
+=======
+  "version": "1.0.0",
+>>>>>>> 4bff4843c937b1f95c6ade461e778766958a23b3
   "description": "Powerful gauge chart for React",
   "author": "boof-tech",
   "license": "MIT",
@@ -29,6 +33,7 @@
   "devDependencies": {
     "babel-eslint": "^10.0.3",
     "cross-env": "^7.0.2",
+<<<<<<< HEAD
     "eslint": "^6.8.0",
     "eslint-config-prettier": "^6.7.0",
     "eslint-config-standard": "^14.1.0",
@@ -46,14 +51,38 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "^3.2.0"
+=======
+    "eslint": "^8.19.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-config-standard-react": "^11.0.1",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-node": "^11.0.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-promise": "^6.0.0",
+    "eslint-plugin-react": "^7.17.0",
+    "eslint-plugin-standard": "^5.0.0",
+    "gh-pages": "^4.0.0",
+    "microbundle-crl": "^0.13.10",
+    "node-sass": "^7.0.1",
+    "npm-run-all": "^4.1.5",
+    "prettier": "^2.0.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "^5.0.1"
+>>>>>>> 4bff4843c937b1f95c6ade461e778766958a23b3
   },
   "files": [
     "dist"
   ],
   "dependencies": {
+<<<<<<< HEAD
     "classnames": "^2.3.1",
     "d3": "^6.2.0",
     "lodash": "^4.17.21",
     "node-sass": "^4.14.1"
+=======
+    "d3": "^7.6.1"
+>>>>>>> 4bff4843c937b1f95c6ade461e778766958a23b3
   }
 }

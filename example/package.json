@@ -12,11 +12,20 @@
   "dependencies": {
     "react": "link:../node_modules/react",
     "react-dom": "link:../node_modules/react-dom",
+<<<<<<< HEAD
     "react-scripts": "link:../node_modules/react-scripts",
     "react-gauge-ultimate": "link:.."
   },
   "devDependencies": {
     "@babel/plugin-syntax-object-rest-spread": "^7.8.3"
+=======
+    "react-gauge-ultimate": "link:..",
+    "react-scripts": "link:../node_modules/react-scripts"
+  },
+  "devDependencies": {
+    "@babel/plugin-syntax-object-rest-spread": "^7.8.3",
+    "classnames": "^2.3.1"
+>>>>>>> 4bff4843c937b1f95c6ade461e778766958a23b3
   },
   "eslintConfig": {
     "extends": "react-app"
